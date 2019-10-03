@@ -1,0 +1,51 @@
+The term machine learning refers to the automated detection of meaningful
+patterns in data. In the past couple of decades it has become a common tool in
+almost any task that requires information extraction from large data sets. We are
+surrounded by a machine learning based technology: search engines learn how
+to bring us the best results (while placing profitable ads), anti-spam software
+learns to filter our email messages, and credit card transactions are secured by
+a software that learns how to detect frauds. Digital cameras learn to detect
+faces and intelligent personal assistance applications on smart-phones learn to
+recognize voice commands. Cars are equipped with accident prevention systems
+that are built using machine learning algorithms. Machine learning is also widely
+used in scientific applications such as bioinformatics, medicine, and astronomy.
+One common feature of all of these applications is that, in contrast to more
+traditional uses of computers, in these cases, due to the complexity of the patterns
+that need to be detected, a human programmer cannot provide an explicit, finedetailed specification of how such tasks should be executed. Taking example from
+intelligent beings, many of our skills are acquired or refined through learning from
+our experience (rather than following explicit instructions given to us). Machine
+learning tools are concerned with endowing programs with the ability to “learn”
+and adapt.
+The first goal of this book is to provide a rigorous, yet easy to follow, introduction to the main concepts underlying machine learning: What is learning?
+How can a machine learn? How do we quantify the resources needed to learn a
+given concept? Is learning always possible? Can we know if the learning process
+succeeded or failed?
+The second goal of this book is to present several key machine learning algorithms. We chose to present algorithms that on one hand are successfully used
+in practice and on the other hand give a wide spectrum of different learning
+techniques. Additionally, we pay specific attention to algorithms appropriate for
+large scale learning (a.k.a. “Big Data”), since in recent years, our world has become increasingly “digitized” and the amount of data available for learning is
+dramatically increasing. As a result, in many applications data is plentiful and
+computation time is the main bottleneck. We therefore explicitly quantify both
+the amount of data and the amount of computation time needed to learn a given
+concept.
+The book is divided into four parts. The first part aims at giving an initial
+rigorous answer to the fundamental questions of learning. We describe a generalization of Valiant’s Probably Approximately Correct (PAC) learning model,
+which is a first solid answer to the question “what is learning?”. We describe
+the Empirical Risk Minimization (ERM), Structural Risk Minimization (SRM),
+and Minimum Description Length (MDL) learning rules, which shows “how can
+a machine learn”. We quantify the amount of data needed for learning using
+the ERM, SRM, and MDL rules and show how learning might fail by deriving
+viii
+a “no-free-lunch” theorem. We also discuss how much computation time is required for learning. In the second part of the book we describe various learning
+algorithms. For some of the algorithms, we first present a more general learning
+principle, and then show how the algorithm follows the principle. While the first
+two parts of the book focus on the PAC model, the third part extends the scope
+by presenting a wider variety of learning models. Finally, the last part of the
+book is devoted to advanced theory.
+We made an attempt to keep the book as self-contained as possible. However,
+the reader is assumed to be comfortable with basic notions of probability, linear
+algebra, analysis, and algorithms. The first three parts of the book are intended
+for first year graduate students in computer science, engineering, mathematics, or
+statistics. It can also be accessible to undergraduate students with the adequate
+background. The more advanced chapters can be used by researchers intending
+to gather a deeper theoretical understanding.
